@@ -113,9 +113,9 @@
 <body>
     <!-- Navigation -->
     <?php include('common/navigation.php'); ?>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">    
-    <!-- Header Carousel -->
-    <header id="myCarousel" class="carousel slide">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    <!-- <header id="myCarousel" class="carousel slide">
         <ol class="carousel-indicators">
             <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
             <li data-target="#myCarousel" data-slide-to="1"></li>
@@ -137,18 +137,44 @@
             </div>
         </div>
 
-        <!-- Controls -->
+
         <a class="left carousel-control" href="#myCarousel" data-slide="prev">
             <button class="w3-button w3-black w3-display-left" style="background-color: #5e010b!important; height: 100px; width: 65px;">&#10094;</button>
         </a>
         <a class="right carousel-control" href="#myCarousel" data-slide="next">
             <button class="w3-button w3-black w3-display-right" style="background-color: #5e010b!important; height: 100px; width: 65px;">&#10095;</button>
         </a>
-    </header>
-
-    <!-- Page Content -->
+    </header> -->
 
 
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ol>
+
+        <div class="carousel-inner">
+            <div class="item active">
+                <img src="images/main2.jpg" alt="Los Angeles" style="width:100%;height: 450px;">
+            </div>
+
+            <div class="item">
+                <img src="images/main1.jpg" alt="Chicago" style="width:100%; height:450px;">
+            </div>
+            
+            <div class="item">
+                <img src="images/main2.jpg" alt="New york" style="width:100%; height: 450px;">
+            </div>
+        </div>
+
+        <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+        <button class="w3-button w3-black w3-display-left" style="background-color: #5e010b!important; height: 100px; width: 65px;">&#10094;</button>
+        </a>
+        <a class="right carousel-control" href="#myCarousel" data-slide="next">
+        <button class="w3-button w3-black w3-display-right" style="background-color: #5e010b!important; height: 100px; width: 65px;">&#10094;</button>
+        </a>
+    </div>
 
 
 
@@ -409,13 +435,15 @@
                         <!-- Wrapper for slides -->
                         <div class="carousel-inner" role="listbox">
                             <div class="item active">
-                                <center><img src="images/rahul.jpg" alt="img"></center>
+                                <center><img src="images/rahul.jpg" alt="img" style="width:100px; height:100px; margin-bottom:-55px;"></center>
                                 <h4>"This company is the best. I am so happy with the result!"<br><span>Michael Roe, Vice President, Comment Box</span></h4>
                             </div>
                             <div class="item">
+                                <center><img src="images/rahul.jpg" alt="img" style="width:100px; height:100px; margin-bottom:-55px;"></center>
                                 <h4>"One word... WOW!!"<br><span>John Doe, Salesman, Rep Inc</span></h4>
                             </div>
                             <div class="item">
+                                <center><img src="images/rahul.jpg" alt="img" style="width:100px; height:100px; margin-bottom:-55px;"></center>
                                 <h4>"Could I... BE any more happy with this company?"<br><span>Chandler Bing, Actor, FriendsAlot</span></h4>
                             </div>
                         </div>
